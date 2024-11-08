@@ -47,14 +47,14 @@ class CompanyController extends Controller
 
         if ($request->hasFile('company_logo')) {
             // Store the logo in the public/img/logos directory
-            $logoPath = $request->file('company_logo')->store('img/logos', 'public');
+            $logoPath = $request->file('company_logo')->store('logos', 'public');
         }
          // Handle the uploaded signature
          $signaturePath = null; 
 
          if ($request->hasFile('signature')) {
              // Store the signature in the public/img/logos directory
-             $signaturePath = $request->file('signature')->store('img/logos', 'public');
+             $signaturePath = $request->file('signature')->store('logos', 'public');
          }
 
         $amount = $request->amount ?? 0;

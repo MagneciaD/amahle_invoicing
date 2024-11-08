@@ -11,7 +11,7 @@
                 <!-- Template 1 -->
                 <div class="col-md-2 col-sm-4 p-1"> <!-- Adjusted column size and padding -->
                     <div class="template-card" onclick="selectTemplate('template1', this)" style="border: 2px solid transparent; border-radius: 5px; cursor: pointer; max-width: 200px; margin: auto; transition: transform 0.3s, box-shadow 0.3s;">
-                        <img alt="Invoice Template 1" class="shadow img-fluid" src="{{ asset('storage/img/invoicetemp2.png') }}" style="max-width: 100%; height: auto;">
+                        <img alt="Invoice Template 1" class="shadow img-fluid" src="{{ asset('img/invoicetemp2.png') }}" style="max-width: 100%; height: auto;">
                         <input type="radio" name="template" value="template1" id="template1" style="display:none;">
                         <label for="template1" class="template-label">Template 1</label>
                     </div>
@@ -20,7 +20,7 @@
                 <!-- Template 2 -->
                 <div class="col-md-2 col-sm-4 p-1">
                     <div class="template-card" onclick="selectTemplate('template2', this)" style="border: 2px solid transparent; border-radius: 5px; cursor: pointer; max-width: 200px; margin: auto; transition: transform 0.3s, box-shadow 0.3s;">
-                        <img alt="Invoice Template 2" class="shadow img-fluid" src="{{ asset('storage/img/invoicetemp1.png') }}" style="max-width: 100%; height: auto;">
+                        <img alt="Invoice Template 2" class="shadow img-fluid" src="{{ asset('img/invoicetemp1.png') }}" style="max-width: 100%; height: auto;">
                         <input type="radio" name="template" value="template2" id="template2" style="display:none;">
                         <label for="template2" class="template-label">Template 2</label>
                     </div>
@@ -29,7 +29,7 @@
                 <!-- Template 3 -->
                 <div class="col-md-2 col-sm-4 p-1">
                     <div class="template-card" onclick="selectTemplate('template3', this)" style="border: 2px solid transparent; border-radius: 5px; cursor: pointer; max-width: 200px; margin: auto; transition: transform 0.3s, box-shadow 0.3s;">
-                        <img alt="Invoice Template 2" class="shadow img-fluid" src="{{ asset('storage/img/invoicetemp3.png') }}" style="max-width: 100%; height: auto;">
+                        <img alt="Invoice Template 2" class="shadow img-fluid" src="{{ asset('img/invoicetemp3.png') }}" style="max-width: 100%; height: auto;">
                         <input type="radio" name="template" value="template3" id="template3" style="display:none;">
                         <label for="template3" class="template-label">Template 3</label>
                     </div>
